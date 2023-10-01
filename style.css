@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Raleway:wght@400;600;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 17rem;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 0.8rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: -10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+img {
+    width: 17rem;
+    border-radius: 0.6rem;
+}
+
+.attribution {
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p,h2 {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    padding: 0.5rem;
+}
+
+h2 {
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+p {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
